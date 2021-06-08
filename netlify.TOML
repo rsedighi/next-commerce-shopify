@@ -1,0 +1,6 @@
+[[plugins]]
+package = "netlify-plugin-cache-nextjs"
+	# These options will cache the build directory at `${NETLIFY_BASE}//.next`
+	[plugins.inputs]
+	# Custom build directory if you aren't using `.next` (https://nextjs.org/docs/api-reference/next.config.js/setting-a-custom-build-directory)
+	custom_build_dir_name = ".next"
