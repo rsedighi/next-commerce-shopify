@@ -7,8 +7,3 @@ package = "netlify-plugin-cache-nextjs"
 
 
 
-    [[redirects]]
-    from = "/press/*"
-    to = "https://www.decathlon.com/pages/press"
-    status = 200
-    force = true
