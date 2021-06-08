@@ -1,10 +1,10 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "5YP Store ",
+  "titleTemplate": "%s ",
+  "description": "Shop for your 5YP Apparel",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "5YP Storefront",
+    "description": "Shop for 5YP lifestyle brand",
     "type": "website",
     "locale": "en_IE",
     "url": "https://nextjs.org/commerce",
