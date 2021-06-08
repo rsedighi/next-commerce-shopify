@@ -53,14 +53,14 @@ export default function Home({
         ))}
       </Marquee>
       <Hero
-        headline="Release Details: The Yeezy BOOST 350 V2 ‘Natural'"
+        headline="DECATHLON GUARANTEE: "
         description="
-        The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the
-        ‘Carbon’ iteration, and now release details have been locked in for
-        this ‘Natural’ joint. Revealed by Yeezy Mafia earlier this year, the
-        shoe was originally called ‘Abez’, which translated to ‘Tin’ in
-        Hebrew. It’s now undergone a name change, and will be referred to as
-        ‘Natural’."
+        We believe in the benefits of sports. At Decathlon, every member of our
+team is driven to create innovative, quality, affordable sports equipment and products so as many people as possible, all around the world, can play
+more. We’ve changed the game by creating real value at true cost. And now,
+see how we’re rolling out state by state the Decathlon sports gear and
+products loved around the world.
+"
       />
 
       {/* <HomeAllProductsGrid
