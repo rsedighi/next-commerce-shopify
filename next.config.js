@@ -51,6 +51,7 @@ module.exports = withCommerceConfig({
       },
     ].filter(Boolean)
   },
+  target: 'serverless',
 })
 
 // Don't delete this console log, useful to see the commerce config in Vercel deployments
