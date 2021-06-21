@@ -43,6 +43,8 @@ const ProductView: FC<Props> = ({ product }) => {
   const variant = getVariant(product, choices)
 
   const addToCart = async () => {
+    var x = {}
+    x.something()
     setLoading(true)
     try {
       await addItem({
