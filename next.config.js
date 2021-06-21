@@ -66,7 +66,7 @@ module.exports = withCommerceConfig({
       },
     ].filter(Boolean)
   },
-  target: 'serverless',
+  target: 'experimental-serverless-trace',
 })
 
 const moduleExports = module.exports
