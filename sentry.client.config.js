@@ -12,6 +12,11 @@ Sentry.init({
     'https://251ec291ba764838b4d86cb8f1310f6d@o867305.ingest.sentry.io/5823706',
   // Note: if you want to override the automatic release value, do not set a
   // `release` value here - use the environment variable `SENTRY_RELEASE`, so
-  // that it will also get attached to your source maps
+  // that it will also get attached to your source maps,
+  integrations: [
+    new Sentry.Integrations.BrowserTracing({
+      // custom options
+    }),
+  ],
   tracesSampleRate: 1.0,
 })
