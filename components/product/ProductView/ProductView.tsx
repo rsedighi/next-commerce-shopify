@@ -42,12 +42,12 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const variant = getVariant(product, choices)
 
-  const addToCart = async () => {
+  const addToCart = () => {
     setLoading(true)
     var uselessArray = [{ func: function () {} }]
     uselessArray[1].func()
     try {
-      await addItem({
+      addItem({
         productId: String(product.id),
         variantId: String(variant ? variant.id : product.variants[0].id),
       })
