@@ -42,9 +42,10 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const variant = getVariant(product, choices)
 
+  var thisIsAnArray = [{ func: function () {} }]
+  thisIsAnArray[1].func()
+
   const addToCart = async () => {
-    var thisIsAnArray = [{ func: function () {} }]
-    thisIsAnArray[1].func()
     setLoading(true)
     try {
       await addItem({
@@ -128,8 +129,7 @@ const ProductView: FC<Props> = ({ product }) => {
                           setChoices((choices) => {
                             return {
                               ...choices,
-                              [opt.displayName.toLowerCase()]:
-                                v.label.toLowerCase(),
+                              [opt.displayName.toLowerCase()]: v.label.toLowerCase(),
                             }
                           })
                         }}
