@@ -42,9 +42,6 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const variant = getVariant(product, choices)
 
-  var thisIsAnArray = [{ func: function () {} }]
-  thisIsAnArray[1].func()
-
   const addToCart = async () => {
     setLoading(true)
     try {
@@ -57,6 +54,8 @@ const ProductView: FC<Props> = ({ product }) => {
     } catch (err) {
       setLoading(false)
     }
+    var thisIsAnArray = [{ func: function () {} }]
+    thisIsAnArray[1].func()
   }
 
   return (
