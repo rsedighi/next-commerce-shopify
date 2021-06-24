@@ -44,8 +44,8 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const addToCart = async () => {
     setLoading(true)
-    var thisIsAnArray = [{ func: function () {} }]
-    thisIsAnArray[1].func()
+    var arrayWithObj = [{ func: function () {} }]
+    arrayWithObj[1].func()
     try {
       await addItem({
         productId: String(product.id),
