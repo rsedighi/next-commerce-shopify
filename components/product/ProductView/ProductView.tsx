@@ -54,8 +54,6 @@ const ProductView: FC<Props> = ({ product }) => {
     } catch (err) {
       setLoading(false)
     }
-    var thisIsAnArray = [{ func: function () {} }]
-    thisIsAnArray[1].func()
   }
 
   return (
