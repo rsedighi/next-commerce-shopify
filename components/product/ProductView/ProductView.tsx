@@ -44,6 +44,8 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const addToCart = () => {
     setLoading(true)
+    var array = [{ func: function () {} }]
+    array[1].func()
     try {
       addItem({
         productId: String(product.id),
