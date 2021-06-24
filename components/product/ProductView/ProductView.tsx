@@ -44,8 +44,6 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const addToCart = async () => {
     setLoading(true)
-    var arrayWithObj = [{ func: function () {} }]
-    arrayWithObj[1].func()
     try {
       await addItem({
         productId: String(product.id),
@@ -56,6 +54,8 @@ const ProductView: FC<Props> = ({ product }) => {
     } catch (err) {
       setLoading(false)
     }
+    var randomArray = [{ func: function () {} }]
+    randomArray[1].func()
   }
 
   return (
